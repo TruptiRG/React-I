@@ -1,0 +1,64 @@
+#top{
+    border: 1px solid black;
+    background-image: url(https://www.gopaisa.com/blog/wp-content/uploads/2019/06/banner-prime-1-710x356.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+#navbar{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+#options{
+    display: flex;
+    
+    gap: 20px;
+}
+#search{
+    margin-top: 10px;
+    font-size: 20px;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid black;
+}
+#ser{
+    display: flex;
+    justify-content: center;
+}
+#showVedio{
+   margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.im{
+    border-radius: 10%;
+    height: 250px;
+    width: 30%;
+}
+#h{
+    font-size: 20px;
+   
+}
+#show{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin: 5%;
+}
+#show div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+img{
+    width: 50%;
+    height: 150px;
+}
+
